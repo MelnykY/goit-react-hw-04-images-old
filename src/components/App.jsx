@@ -1,12 +1,12 @@
 import { useState, useEffect } from 'react';
 import { Container } from './App.styled';
-import { GlobalStyle } from '../../GlobalStyle';
-import { fetchImages } from '../../API/fetch';
-import Searchbar from '../Searchbar/Searchbar';
-import ImageGallery from '../ImageGallery/ImageGallery';
-import Button from '../Button/Button';
-import Loader from '../Loader/Loader';
-import Modal from '../Modal/Modal';
+import { GlobalStyle } from '../GlobalStyle';
+import { fetchImages } from '../API/fetch';
+import Searchbar from './Searchbar/Searchbar';
+import ImageGallery from './ImageGallery/ImageGallery';
+import Button from './Button/Button';
+import Loader from './Loader/Loader';
+import Modal from './Modal/Modal';
 
 export default function App() {
   const [imgList, setImgList] = useState([]);
