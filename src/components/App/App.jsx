@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Container } from './App.styled';
-import { GlobalStyle } from '../GlobalStyle';
+import { GlobalStyle } from '../../GlobalStyle';
 import { fetchImages } from '../../API/fetch';
 import Searchbar from '../Searchbar/Searchbar';
 import ImageGallery from '../ImageGallery/ImageGallery';
